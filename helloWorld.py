@@ -1,3 +1,5 @@
-file = open("hi.txt", "r")
-print(file.read())
+file = open("hi.txt", "a")
+file.writelines("\ntesting if this works \n next line")
+#print(file.read())
 file.close()
+print("hi")
